@@ -1,4 +1,4 @@
-#Organi Food 
+#Ogani Food
 
 git-link: https://github.com/programming-squad-8/ogani-food.git
 
