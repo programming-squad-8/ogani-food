@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+/* a2 team part design  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+.position-control-team {
+  margin-top: -56px;
+  background-color: white;
+  color: rgb(46, 41, 41);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.font-weight {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.a2 {
+  border: none;
+  border-radius: 25px;
+}
+.nav-items {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.font-bolds {
+  font-weight: 700;
+  margin-top: -10px;
+}
+.nav-item:first-child {
+  border-bottom: 2px solid #7fad39;
+}
+.a2-tem {
+}
+.nav-a2 {
+  margin-top: -25px;
+  color: #1c1c1c;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 660px) {
+  .a2-tem {
+    margin-top: 3rem !important;
+  }
+}
