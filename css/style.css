@@ -264,20 +264,34 @@ body {
     text-decoration: none;
 }
 .a4-list li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  padding: 5px 0;
+  transition: all .3s;
+}
+.a4-list li {
+  padding: 6px 0;
+  display: inline-block;
+}
+
+.a4-list li a:hover {
+  color: #7fad39;
+}
+
+.a4-logo {
+  cursor: pointer;
     text-decoration: none;
     color: #000;
     font-size: 14px;
     padding: 5px 0;
 }
-.a4-list li {
-    padding: 6px 0;
-}
-
 .a4-title {
     font-weight: 900;
 }
-.a4-p {
-    font-size: 14px;
+.a4-p{
+  font-size: 14px;
+  margin: 15px 0  20px 0;
 }
 .input-field {
     position: relative;
@@ -299,16 +313,23 @@ body {
     height: 100%;
 }
 
-.a4-icon i {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;
+.a4-icon i{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  border: 1px solid #e7e6e6;
+  transition:  all .3s;
+  cursor: pointer;
 }
+
+.a4-icon i:hover{
+  background-color: #7fad39;
+  color: white;
 
 /* responsive code */
 
