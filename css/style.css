@@ -286,9 +286,19 @@ body {
   color: #000;
   font-size: 14px;
   padding: 5px 0;
+  transition: all .3s;
 }
 .a4-list li {
   padding: 6px 0;
+  display: inline-block;
+}
+
+.a4-list li a:hover {
+  color: #7fad39;
+}
+
+.a4-logo {
+  cursor: pointer;
 }
 
 .a4-title{
@@ -296,6 +306,7 @@ body {
 }
 .a4-p{
   font-size: 14px;
+  margin: 15px 0  20px 0;
 }
 .input-field {
   position: relative;
@@ -326,6 +337,14 @@ body {
   justify-content: center;
   align-items: center;
   margin-right: 15px;
+  border: 1px solid #e7e6e6;
+  transition:  all .3s;
+  cursor: pointer;
+}
+
+.a4-icon i:hover{
+  background-color: #7fad39;
+  color: white;
 }
 
 @media only screen and (max-width: 660px) {
