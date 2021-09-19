@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap");
 
 * {
     margin: 0;
@@ -252,6 +251,65 @@ body {
     color: #1c1c1c;
     font-size: 1.1rem;
 }
+
+/*----------- Group A4 ------------ */
+.footer-area {
+    background-color: #f3f6fa;
+}
+
+.a4-border {
+    border-top: 1px solid #ebebeb;
+}
+.a4-border a {
+    text-decoration: none;
+}
+.a4-list li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.a4-list li {
+    padding: 6px 0;
+}
+
+.a4-title {
+    font-weight: 900;
+}
+.a4-p {
+    font-size: 14px;
+}
+.input-field {
+    position: relative;
+}
+.a4-input {
+    border: 1px solid #e7e6e6;
+    padding: 10px 15px;
+    width: 100%;
+}
+.a4-button {
+    border: 0;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #7fad39;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+}
+
+.a4-icon i {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
 /* responsive code */
 
 @media only screen and (max-width: 992px) {
@@ -267,65 +325,6 @@ body {
     .hamburger {
         display: flex;
     }
-}
-
-
-/*----------- Group A4 ------------ */
-.footer-area {
-  background-color: #f3f6fa;
-}
-
-.a4-border {
-  border-top: 1px solid #ebebeb;
-}
-.a4-border a {
-  text-decoration: none;
-}
-.a4-list li a {
-  text-decoration: none;
-  color: #000;
-  font-size: 14px;
-  padding: 5px 0;
-}
-.a4-list li {
-  padding: 6px 0;
-}
-
-.a4-title{
-  font-weight: 900;
-}
-.a4-p{
-  font-size: 14px;
-}
-.input-field {
-  position: relative;
-}
-.a4-input{
-  border: 1px solid #e7e6e6;
-  padding: 10px 15px;
-  width: 100%;
-}
-.a4-button{
-  border: 0;
-  padding: 10px 15px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #7fad39;
-  color: white;
-  font-weight: bold;
-  height: 100%;
-}
-
-.a4-icon i{
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  border-radius: 50%;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
 }
 
 @media only screen and (max-width: 660px) {
